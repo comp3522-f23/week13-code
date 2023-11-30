@@ -1,6 +1,3 @@
-from collections import namedtuple
-
-
 def create_observer(name, update_func):
     return {"name": name, "update": update_func}
 
